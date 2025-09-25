@@ -1,7 +1,7 @@
-## Analysis of Risks Inherent in Convertible Securities – Plethico Pharmaceuticals Ltd
+# Analysis of Risks Inherent in Convertible Securities – Plethico Pharmaceuticals Ltd
 This project presents an in-depth analysis of the financial risks inherent in convertible securities issued by Plethico Pharmaceuticals Ltd. It demonstrates practical application of market risk measures, credit analysis, and valuation under uncertainty in the context of corporate finance.
 
-# Project Overview
+## Project Overview
 The analysis covers:
 
 Company background and historical financial data review.
