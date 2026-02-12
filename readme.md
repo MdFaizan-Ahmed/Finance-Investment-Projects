@@ -1,33 +1,29 @@
-# Analysis of Risks Inherent in Convertible Securities – Plethico Pharmaceuticals Ltd
-This project presents an in-depth analysis of the financial risks inherent in convertible securities issued by Plethico Pharmaceuticals Ltd. It demonstrates practical application of market risk measures, credit analysis, and valuation under uncertainty in the context of corporate finance.
+# Convertible Securities Risk Analysis – Plethico Pharmaceuticals
 
-## Project Overview
-The analysis covers:
+**Type:** MSc dissertation (Investment Management, University of Surrey)  
+**Focus:** Risk factors inherent in convertible bonds, illustrated through a distressed Indian pharmaceutical company
 
-Company background and historical financial data review.
-Convertible bond structure and rights.
-Market risk analysis including sensitivity to equity prices and foreign currency risk.
-Credit risk factors including default probability assessments.
-Scenario and stress test modeling examining liquidity, regulatory, and legal risks.
-Recommendations for risk mitigation and strategic financial decisions.
+## Summary
+This paper examines the risk profile of convertible securities through a detailed case study of Plethico Pharmaceuticals' 2010 FCCB issuance. It moves beyond textbook pricing models to analyze what actually happens when conversion rights, put options, and credit risk intersect in a stressed emerging-market context.
 
-Data and Methods:
+**Core risk dimensions examined:**
+- **Conversion risk** – Equity downside renders the conversion option worthless
+- **Credit risk** – Bondholder put options lose value if the issuer cannot pay
+- **Liquidity risk** – Thin trading in both the bond and underlying stock
+- **Structural risk** – Subordination, covenants, and cross-default provisions
+- **Event risk** – Promoter pledges, regulatory investigations, and subsequent restructuring
 
-All data is sourced from publicly available financial reports and regulatory filings as of the project's date.
+## Key Takeaways
+- Convertible bonds are not "equity with a floor" — the floor can collapse
+- Standard valuation models (Black-Scholes, binomial) assume liquid markets and creditworthy issuers; both assumptions failed here
+- Risk management requires scenario analysis, not just Greek-based hedging
+- Post-2010, Indian FCCB structures tightened significantly — this case is part of why
 
-Quantitative risk modeling includes Value at Risk (VaR), Conditional VaR, and correlation stress tests.
-
-Qualitative assessments complement the quantitative results to form balanced recommendations.
-
-Usage:
-
-The attached PDF document contains detailed analysis, tables, and scenario results.
-This project serves as a case study for financial risk management and convertible securities valuation.
-
-Disclaimer:
-
-This work is for educational and demonstration purposes only. Data and assumptions reflect conditions at the time of analysis and should not be used for any investment decisions.
-
+## Relevance
+This paper demonstrates:
+- Ability to deconstruct complex financial instruments
+- Understanding of the gap between pricing models and real-world risk
+- Familiarity with emerging-market corporate distress patterns
 
 # Tata Steel Capital Structure Decision
 
