@@ -28,3 +28,21 @@ Disclaimer:
 
 This work is for educational and demonstration purposes only. Data and assumptions reflect conditions at the time of analysis and should not be used for any investment decisions.
 
+
+# Tata Steel Capital Structure Decision
+# Tata Steel Capital Structure Analysis
+
+**Type:** MSc dissertation (Investment Management, University of Surrey)  
+**Focus:** Capital structure optimisation in a capital-intensive, cyclical emerging-market firm
+
+## Summary
+This paper applies the Modigliani-Miller Theorem, Trade-Off Theory, Pecking Order Theory, and Agency Cost Theory to Tata Steel's historical financing decisions. It evaluates how the company balances interest tax shields against financial distress risk, particularly in the context of:
+
+- Post-acquisition debt consolidation
+- COVID-19 liquidity pressures
+- Sustainability-linked cape plans (2030 target: 35–40 MTPA capacity, significant CO₂ reduction)
+
+## Key Takeaways
+- Tata Steel's post-2018 deleveraging reflects Trade-Off Theory in practice
+- WACC minimization requires sector-specific distress cost calibration
+- Capital structure policy is not static — it responds to strategic inflection points
