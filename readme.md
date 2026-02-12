@@ -30,7 +30,6 @@ This work is for educational and demonstration purposes only. Data and assumptio
 
 
 # Tata Steel Capital Structure Decision
-# Tata Steel Capital Structure Analysis
 
 **Type:** MSc dissertation (Investment Management, University of Surrey)  
 **Focus:** Capital structure optimisation in a capital-intensive, cyclical emerging-market firm
