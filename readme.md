@@ -43,7 +43,7 @@ This paper applies the Modigliani-Miller Theorem, Trade-Off Theory, Pecking Orde
 - Capital structure policy is not static — it responds to strategic inflection points
 
 # Portfolio Risk Metrics: VaR and ES Implementation
-**Type:** Quantitative risk project (Python)
+**Type:** Quantitative risk project (Python)  
 **Focus:** Empirical comparison of historical simulation and parametric methods for Value at Risk and Expected Shortfall
 
 ## Summary
