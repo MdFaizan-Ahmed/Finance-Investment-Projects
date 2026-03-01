@@ -41,3 +41,31 @@ This paper applies the Modigliani-Miller Theorem, Trade-Off Theory, Pecking Orde
 - Tata Steel's post-2018 deleveraging reflects Trade-Off Theory in practice
 - WACC minimization requires sector-specific distress cost calibration
 - Capital structure policy is not static — it responds to strategic inflection points
+
+# Portfolio Risk Metrics: VaR and ES Implementation
+**Type**: Quantitative risk project (Python)
+**Focus**: Empirical comparison of historical simulation and parametric methods for Value at Risk and Expected Shortfall
+
+## Summary
+This project implements and compares two approaches to measuring portfolio risk—historical simulation and parametric VaR/ES—using real market data. It moves beyond black-box calculations to examine how distributional assumptions and time-scaling conventions affect risk estimates in practice.
+
+Core risk dimensions examined:
+
+- Historical simulation – Non-parametric estimation using empirical return distributions
+- Parametric method – Normal distribution assumption with mean-variance framework
+- Time scaling behavior – Why parametric ES does not scale exactly by √T (with mathematical explanation)
+- Portfolio diversification – Covariance matrix construction and volatility reduction effects
+- Model limitations – Impact of skewness and excess kurtosis on tail risk estimates
+
+## Key Takeaways
+- Historical VaR captures fat tails but is limited by data availability; parametric methods smooth estimates but underestimate tail risk under non-normal conditions
+- Parametric ES grows faster than √T at high confidence levels due to the φ(z)/(1−α) term interacting with time scaling—a nuance often glossed over in standard treatments
+- Portfolio diversification produced a 33% volatility reduction compared to average individual asset volatility, demonstrating the covariance structure's importance
+- Simple return vs log return choices affect statistical properties; both are computed and compared
+
+## Relevance
+This project demonstrates:
+- Ability to implement risk metrics from first principles
+- Understanding of the gap between theoretical models and empirical reality
+- Critical thinking about model assumptions and their practical implications
+- Python proficiency with financial data (yfinance, pandas, numpy, scipy, matplotlib)
