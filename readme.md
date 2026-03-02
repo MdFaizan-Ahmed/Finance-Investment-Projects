@@ -1,4 +1,4 @@
-# Convertible Securities Risk Analysis – Plethico Pharmaceuticals
+# Convertible Securities Risk Analysis: Plethico Pharmaceuticals
 
 **Type:** MSc dissertation (Investment Management, University of Surrey)  
 **Focus:** Risk factors inherent in convertible bonds, illustrated through a distressed Indian pharmaceutical company
