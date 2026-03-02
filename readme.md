@@ -35,7 +35,7 @@ This paper applies the Modigliani-Miller Theorem, Trade-Off Theory, Pecking Orde
 
 - Post-acquisition debt consolidation
 - COVID-19 liquidity pressures
-- Sustainability-linked cape plans (2030 target: 35–40 MTPA capacity, significant CO₂ reduction)
+- Sustainability-linked cape plans (2030 target: 35-40 MTPA capacity, significant CO₂ reduction)
 
 ## Key Takeaways
 - Tata Steel's post-2018 deleveraging reflects Trade-Off Theory in practice
@@ -47,7 +47,7 @@ This paper applies the Modigliani-Miller Theorem, Trade-Off Theory, Pecking Orde
 **Focus:** Empirical comparison of historical simulation and parametric methods for Value at Risk and Expected Shortfall
 
 ## Summary
-This project implements and compares two approaches to measuring portfolio risk—historical simulation and parametric VaR/ES—using real market data. It moves beyond black-box calculations to examine how distributional assumptions and time-scaling conventions affect risk estimates in practice.
+This project implements and compares two approaches to measuring portfolio risk, historical simulation and parametric VaR/ES, using real market data. It moves beyond black-box calculations to examine how distributional assumptions and time-scaling conventions affect risk estimates in practice.
 
 Core risk dimensions examined:
 
