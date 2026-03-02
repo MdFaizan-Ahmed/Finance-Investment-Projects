@@ -59,7 +59,7 @@ Core risk dimensions examined:
 
 ## Key Takeaways
 - Historical VaR captures fat tails but is limited by data availability; parametric methods smooth estimates but underestimate tail risk under non-normal conditions
-- Parametric ES grows faster than √T at high confidence levels due to the φ(z)/(1−α) term interacting with time scaling—a nuance often glossed over in standard treatments
+- Parametric ES grows faster than √T at high confidence levels due to the φ(z)/(1−α) term interacting with time scaling, a nuance often glossed over in standard treatments
 - Portfolio diversification produced a 33% volatility reduction compared to average individual asset volatility, demonstrating the covariance structure's importance
 - Simple return vs log return choices affect statistical properties; both are computed and compared
 
