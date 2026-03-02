@@ -7,17 +7,17 @@
 This paper examines the risk profile of convertible securities through a detailed case study of Plethico Pharmaceuticals' 2010 FCCB issuance. It moves beyond textbook pricing models to analyze what actually happens when conversion rights, put options, and credit risk intersect in a stressed emerging-market context.
 
 **Core risk dimensions examined:**
-- **Conversion risk** – Equity downside renders the conversion option worthless
-- **Credit risk** – Bondholder put options lose value if the issuer cannot pay
-- **Liquidity risk** – Thin trading in both the bond and underlying stock
-- **Structural risk** – Subordination, covenants, and cross-default provisions
-- **Event risk** – Promoter pledges, regulatory investigations, and subsequent restructuring
+- **Conversion risk:** Equity downside renders the conversion option worthless
+- **Credit risk:** Bondholder put options lose value if the issuer cannot pay
+- **Liquidity risk:** Thin trading in both the bond and underlying stock
+- **Structural risk:** Subordination, covenants, and cross-default provisions
+- **Event risk:** Promoter pledges, regulatory investigations, and subsequent restructuring
 
 ## Key Takeaways
 - Convertible bonds are not "equity with a floor" — the floor can collapse
 - Standard valuation models (Black-Scholes, binomial) assume liquid markets and creditworthy issuers; both assumptions failed here
 - Risk management requires scenario analysis, not just Greek-based hedging
-- Post-2010, Indian FCCB structures tightened significantly — this case is part of why
+- Post-2010, Indian FCCB structures tightened significantly — this case is part of the why
 
 ## Relevance
 This paper demonstrates:
@@ -40,7 +40,7 @@ This paper applies the Modigliani-Miller Theorem, Trade-Off Theory, Pecking Orde
 ## Key Takeaways
 - Tata Steel's post-2018 deleveraging reflects Trade-Off Theory in practice
 - WACC minimization requires sector-specific distress cost calibration
-- Capital structure policy is not static — it responds to strategic inflection points
+- Capital structure policy is not static; it responds to strategic inflection points
 
 # Portfolio Risk Metrics: VaR and ES Implementation
 **Type:** Quantitative risk project (Python)  
@@ -51,11 +51,11 @@ This project implements and compares two approaches to measuring portfolio risk�
 
 Core risk dimensions examined:
 
-- Historical simulation – Non-parametric estimation using empirical return distributions
-- Parametric method – Normal distribution assumption with mean-variance framework
-- Time scaling behavior – Why parametric ES does not scale exactly by √T (with mathematical explanation)
-- Portfolio diversification – Covariance matrix construction and volatility reduction effects
-- Model limitations – Impact of skewness and excess kurtosis on tail risk estimates
+- Historical simulation: Non-parametric estimation using empirical return distributions
+- Parametric method: Normal distribution assumption with mean-variance framework
+- Time scaling behavior: Why parametric ES does not scale exactly by √T (with mathematical explanation)
+- Portfolio diversification: Covariance matrix construction and volatility reduction effects
+- Model limitations: Impact of skewness and excess kurtosis on tail risk estimates
 
 ## Key Takeaways
 - Historical VaR captures fat tails but is limited by data availability; parametric methods smooth estimates but underestimate tail risk under non-normal conditions
