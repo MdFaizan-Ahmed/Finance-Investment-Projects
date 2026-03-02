@@ -14,10 +14,10 @@ This paper examines the risk profile of convertible securities through a detaile
 - **Event risk:** Promoter pledges, regulatory investigations, and subsequent restructuring
 
 ## Key Takeaways
-- Convertible bonds are not "equity with a floor" — the floor can collapse
+- Convertible bonds are not "equity with a floor": the floor can collapse
 - Standard valuation models (Black-Scholes, binomial) assume liquid markets and creditworthy issuers; both assumptions failed here
 - Risk management requires scenario analysis, not just Greek-based hedging
-- Post-2010, Indian FCCB structures tightened significantly — this case is part of the why
+- Post-2010, Indian FCCB structures tightened significantly
 
 ## Relevance
 This paper demonstrates:
