@@ -69,3 +69,8 @@ This project demonstrates:
 - Understanding of the gap between theoretical models and empirical reality
 - Critical thinking about model assumptions and their practical implications
 - Python proficiency with financial data (yfinance, pandas, numpy, scipy, matplotlib)
+- Model validation skills – implementing statistical backtests and interpreting results in a regulatory context
+
+## Updates
+- Backtesting validation – Kupiec POF test, Christoffersen conditional coverage test, and Basel Traffic Light framework
+- Backtesting results: Historical VaR passes all three tests (Kupiec p=0.985, Christoffersen p=0.502, Green zone). Parametric VaR fails Kupiec (p=0.005) and Christoffersen (p=0.002), landing in Yellow zone—confirming that normal assumptions systematically underestimate tail risk and produce clustered exceptions.
