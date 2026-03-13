@@ -44,7 +44,7 @@ This paper applies the Modigliani-Miller Theorem, Trade-Off Theory, Pecking Orde
 
 # Portfolio Risk Metrics: VaR and ES Implementation
 **Type:** Quantitative risk project (Python)  
-**Focus:** Empirical comparison of historical simulation and parametric methods for Value at Risk and Expected Shortfall
+**Focus:** Empirical comparison of historical simulation and parametric methods for Value at Risk and Expected Shortfall<br>
 **Please Note:** This notebook documents my process of building, validating, and stress-testing market risk models from first principles. It prioritises transparency of reasoning over code minimalism
 
 ## Summary
