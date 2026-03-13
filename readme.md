@@ -74,3 +74,56 @@ This project demonstrates:
 ## Updates
 - Backtesting validation – Kupiec POF test, Christoffersen conditional coverage test, and Basel Traffic Light framework
 - Backtesting results: Historical VaR passes all three tests (Kupiec p=0.985, Christoffersen p=0.502, Green zone). Parametric VaR fails Kupiec (p=0.005) and Christoffersen (p=0.002), landing in Yellow zone—confirming that normal assumptions systematically underestimate tail risk and produce clustered exceptions.
+
+# Portfolio Risk Metrics with Backtesting (Update)
+
+A comprehensive Python implementation of portfolio risk metrics including VaR, Expected Shortfall, and regulatory backtesting frameworks.
+
+## Features
+
+- **Data Collection**: Downloads historical data from yfinance for 5 stocks (AAPL, MSFT, SAIL.NS, RELIANCE.NS, SPY)
+- **Descriptive Statistics**: Annualized returns, volatility, skewness, excess kurtosis
+- **Correlation & Covariance**: Asset correlation matrices and annualized covariance
+- **Portfolio Construction**: Equal-weighted portfolio with volatility analysis
+- **Risk Metrics**:
+  - Historical VaR/ES (99%/97.5%)
+  - Parametric (Delta-Normal) VaR/ES
+  - Historical Monte Carlo VaR/ES
+- **Backtesting Frameworks**:
+  - Kupiec's Proportion of Failures (POF) test
+  - Christoffersen's conditional coverage test
+  - Basel Traffic Light test
+- **Out-of-Sample Validation**: Train/test split (2016–2021 / 2022–2026)
+- **Visualizations**: Rolling risk metrics, return distributions, model comparisons
+
+## Results
+
+| Model | In-sample failures | Out-of-sample failures | In-sample p-value | Out-of-sample p-value | Verdict |
+|-------|-------------------|------------------------|-------------------|------------------------|---------|
+| Historical VaR | 24 | 3 | 0.9853 | 0.0 | ✅ Pass (in-sample) ❌ Fail (out-of-sample) |
+| Parametric VaR | 39 | 13 | 0.0045 | 0.0 | ❌ Fail |
+| Monte Carlo VaR | N/A | 3 | N/A | 0.0 | ❌ Fail |
+
+### Key Findings
+
+1. **Historical VaR** passed all in-sample tests but failed out-of-sample (too conservative) — classic overfitting.
+2. **Parametric VaR** failed everywhere — normality assumption breaks down with fat-tailed returns.
+3. **Monte Carlo VaR** inherited historical overfitting — garbage in, garbage out.
+4. **Non-stationarity**: Risk profiles changed significantly between training and test periods.
+
+## Next Steps
+
+- GARCH models for time-varying volatility
+- Filtered Historical Simulation (FHS)
+- Stress testing and scenario analysis
+- Regime-switching models
+
+## Dependencies
+
+- pandas, numpy, scipy, matplotlib
+- yfinance
+- warnings (filtered)
+
+## Usage
+
+Run the notebook sequentially. All data is fetched live from yfinance.
