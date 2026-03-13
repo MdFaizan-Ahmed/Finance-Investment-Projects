@@ -45,6 +45,7 @@ This paper applies the Modigliani-Miller Theorem, Trade-Off Theory, Pecking Orde
 # Portfolio Risk Metrics: VaR and ES Implementation
 **Type:** Quantitative risk project (Python)  
 **Focus:** Empirical comparison of historical simulation and parametric methods for Value at Risk and Expected Shortfall
+**Please Note:** This notebook documents my process of building, validating, and stress-testing market risk models from first principles. It prioritises transparency of reasoning over code minimalism
 
 ## Summary
 This project implements and compares two approaches to measuring portfolio risk, historical simulation and parametric VaR/ES, using real market data. It moves beyond black-box calculations to examine how distributional assumptions and time-scaling conventions affect risk estimates in practice.
@@ -76,6 +77,7 @@ This project demonstrates:
 - Backtesting results: Historical VaR passes all three tests (Kupiec p=0.985, Christoffersen p=0.502, Green zone). Parametric VaR fails Kupiec (p=0.005) and Christoffersen (p=0.002), landing in Yellow zone—confirming that normal assumptions systematically underestimate tail risk and produce clustered exceptions.
 
 # Portfolio Risk Metrics with Backtesting (Update)
+**Please Note:** This notebook documents my process of building, validating, and stress-testing market risk models from first principles. It prioritises transparency of reasoning over code minimalism
 
 A comprehensive Python implementation of portfolio risk metrics including VaR, Expected Shortfall, and regulatory backtesting frameworks.
 
